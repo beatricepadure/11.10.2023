@@ -4,11 +4,13 @@ p:hover {
 }
 
 p::before {
+     content: "hello";
     color:red;
     font-weight: bold;
 }
 
 p::after {
+    content: "Bye";
     color: plum;
     font-weight: 200;
 }
