@@ -1,0 +1,21 @@
+p:hover {
+    color: pink;
+    font-weight: bold;
+}
+
+p::before {
+    content: "hello";
+    color:red;
+    font-weight: bold;
+}
+
+p::after {
+    content: "Bye";
+    color: plum;
+    font-weight: 200;
+}
+
+p::selection {
+    background-color: aquamarine;
+    color: rgb(30, 90, 69)
+}
