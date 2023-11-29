@@ -1,0 +1,31 @@
+@keyframes my-animation {
+    from {background-color: antiquewhite;}
+    to {background-color:brown;}
+}
+
+body {
+    animation: my-animation 2s alternate
+}
+
+img {
+    width:200px;
+    transition:0.5s;
+}
+
+img:active {
+    width:500px
+}
+
+.btn {
+ border:dotted
+}
+
+.we {
+    color:red
+}
+.are {
+    color:blueviolet
+}
+.given {
+    color:green
+}
